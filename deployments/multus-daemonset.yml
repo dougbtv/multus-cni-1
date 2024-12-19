@@ -220,7 +220,7 @@ spec:
             - name: cnibin
               mountPath: /host/opt/cni/bin
               mountPropagation: Bidirectional
-      terminationGracePeriodSeconds: 30
+      terminationGracePeriodSeconds: 10
       volumes:
         - name: cni
           hostPath:
